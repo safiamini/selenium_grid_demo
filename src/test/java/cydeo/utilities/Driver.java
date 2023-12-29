@@ -15,7 +15,7 @@ import java.time.Duration;
 public class Driver {
 
     //create a private constructor to remove access to this object
-    private Driver(){}
+private Driver(){}
 
     /*
     We make the WebDriver private, because we want to close access from outside the class.
@@ -52,7 +52,7 @@ public class Driver {
                 case "remote-chrome":
                     try {
                         // assign your grid server address
-                        String gridAddress = "44.202.100.36";
+                        String gridAddress = "54.234.152.90";
                         URL url = new URL("http://"+ gridAddress + ":4444/wd/hub");
                         ChromeOptions chromeOptions = new ChromeOptions();
                         chromeOptions.addArguments("--start-maximized");
